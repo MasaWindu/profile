@@ -129,6 +129,17 @@ td {
   border-top: 2px solid #be270d;
 }
 
+img{
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-drag: none;
+    -webkit-user-drag: none;
+    -moz-user-select: none;
+}
+
 @media (max-width: 960px) {
   #contents {
     width: 100%;
